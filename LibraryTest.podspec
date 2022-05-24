@@ -7,6 +7,5 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/sayyajp/LibraryTestDemo"
   s.frameworks   = "Foundation", "UIKit"
   s.source       = { :git => "https://github.com/sayyajp/LibraryTestDemo.git" }
-  s.source_files = ["LibraryTest/**/*.swift", "LibraryTest/LibraryTest.h"]
   s.vendored_frameworks = ["path/LibraryTest.framework"] 
 end
