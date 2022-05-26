@@ -4,6 +4,10 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/LibraryTest-Swift.h</key>
+		<data>
+		+AG/TIRgDygobsRvLXb91L9uyr0=
+		</data>
 		<key>Headers/LibraryTest.h</key>
 		<data>
 		gPEmKBYg7YxKYVxSYEix8TEnvD4=
@@ -12,13 +16,32 @@
 		<data>
 		uUnWT380fMPHVIC819pPkW7M/Nc=
 		</data>
+		<key>Modules/LibraryTest.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<data>
+		V9Fiueje7nf+QWixtsvG/P2GR9M=
+		</data>
+		<key>Modules/LibraryTest.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<data>
+		CmeMh4OZarmRVQPxv39oSVi9yDA=
+		</data>
+		<key>Modules/LibraryTest.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<data>
+		3aK4gET8UJSTeAeEEWNJcZlLF9I=
+		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
-		YRHoBblCMmVM8o+MLDfaLecSagw=
+		eXqIj8lWOs6fWI5IlZJDt6s/yXA=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Headers/LibraryTest-Swift.h</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			6ZKsFqnPv3iFw/8C3Qq1msbYw3VRGSUFldeEBJjzGTs=
+			</data>
+		</dict>
 		<key>Headers/LibraryTest.h</key>
 		<dict>
 			<key>hash2</key>
@@ -26,11 +49,32 @@
 			eEd5/bqdK2nK7ZuaGIl7D+51ZKNiztQwokjD4c4JHRc=
 			</data>
 		</dict>
+		<key>Modules/LibraryTest.swiftmodule/arm64-apple-ios.swiftdoc</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bZ7jCcjzCDJspXJDe2F7lhrCvydxKxQM7q/7cQLj87w=
+			</data>
+		</dict>
+		<key>Modules/LibraryTest.swiftmodule/arm64-apple-ios.swiftinterface</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			RGyuFdrDDCRTTGK6bFKwQSrfbYDkVVMOQsun3+hYE/4=
+			</data>
+		</dict>
+		<key>Modules/LibraryTest.swiftmodule/arm64-apple-ios.swiftmodule</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			hVR0shbtJ/7+boLepBoGh4pT4zQpvc8yKPXEqMjmq4g=
+			</data>
+		</dict>
 		<key>Modules/module.modulemap</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			SGnQ2U9z2jCPdcAco33TrQQ4dVh13PmTfsk7BH2tWoQ=
+			r8U17ZNWeuprKbH1rxkzRlJI/2HIgIdKg2xqRY0Btlk=
 			</data>
 		</dict>
 	</dict>

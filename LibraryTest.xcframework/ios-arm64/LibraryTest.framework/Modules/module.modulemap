@@ -4,3 +4,8 @@ framework module LibraryTest {
   export *
   module * { export * }
 }
+
+module LibraryTest.Swift {
+    header "LibraryTest-Swift.h"
+    requires objc
+}

@@ -10,6 +10,7 @@
 		278624A36307927C525965A2 /* Pods_LibraryTestDemoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89963B77F0B684841D68B094 /* Pods_LibraryTestDemoTests.framework */; };
 		34C87692096971B7F094565A /* Pods_LibraryTestDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53ED7DBFD3FA3F49ECEC76AE /* Pods_LibraryTestDemo.framework */; };
 		B93CB01FDA6F9458B6899443 /* Pods_LibraryTestDemo_LibraryTestDemoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9235D877E077D9FE4C9BDD /* Pods_LibraryTestDemo_LibraryTestDemoUITests.framework */; };
+		EBA6C688283F73E9003BEDE8 /* String.extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBA6C687283F73E9003BEDE8 /* String.extension.swift */; };
 		EBDA27BD283D2A2700547963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDA27BC283D2A2700547963 /* AppDelegate.swift */; };
 		EBDA27BF283D2A2700547963 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDA27BE283D2A2700547963 /* SceneDelegate.swift */; };
 		EBDA27C1283D2A2700547963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EBDA27C0283D2A2700547963 /* ViewController.swift */; };
@@ -23,8 +24,6 @@
 		EBDA27F6283D2AAC00547963 /* LibraryTest.h in Headers */ = {isa = PBXBuildFile; fileRef = EBDA27F3283D2AAC00547963 /* LibraryTest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBDA27F9283D2AAC00547963 /* LibraryTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDA27F1283D2AAC00547963 /* LibraryTest.framework */; };
 		EBDA27FA283D2AAC00547963 /* LibraryTest.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBDA27F1283D2AAC00547963 /* LibraryTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		EBDA2844283D3C5000547963 /* LibraryTestFrameWork.docc in Sources */ = {isa = PBXBuildFile; fileRef = EBDA2843283D3C5000547963 /* LibraryTestFrameWork.docc */; };
-		EBDA2845283D3C5000547963 /* LibraryTestFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = EBDA2842283D3C5000547963 /* LibraryTestFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EBDA2848283D3C5000547963 /* LibraryTestFrameWork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBDA2840283D3C5000547963 /* LibraryTestFrameWork.framework */; };
 		EBDA2849283D3C5000547963 /* LibraryTestFrameWork.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = EBDA2840283D3C5000547963 /* LibraryTestFrameWork.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
@@ -85,6 +84,7 @@
 		89963B77F0B684841D68B094 /* Pods_LibraryTestDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LibraryTestDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9587DCF78EEC4FFAF88ADC15 /* Pods-LibraryTestDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryTestDemo.release.xcconfig"; path = "Target Support Files/Pods-LibraryTestDemo/Pods-LibraryTestDemo.release.xcconfig"; sourceTree = "<group>"; };
 		BFE5619373FF4772A33E28B5 /* Pods-LibraryTestDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LibraryTestDemoTests.release.xcconfig"; path = "Target Support Files/Pods-LibraryTestDemoTests/Pods-LibraryTestDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		EBA6C687283F73E9003BEDE8 /* String.extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.extension.swift; sourceTree = "<group>"; };
 		EBDA27B9283D2A2700547963 /* LibraryTestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LibraryTestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBDA27BC283D2A2700547963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EBDA27BE283D2A2700547963 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -102,8 +102,6 @@
 		EBDA27F3283D2AAC00547963 /* LibraryTest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryTest.h; sourceTree = "<group>"; };
 		EBDA27F4283D2AAC00547963 /* LibraryTest.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LibraryTest.docc; sourceTree = "<group>"; };
 		EBDA2840283D3C5000547963 /* LibraryTestFrameWork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LibraryTestFrameWork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBDA2842283D3C5000547963 /* LibraryTestFrameWork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LibraryTestFrameWork.h; sourceTree = "<group>"; };
-		EBDA2843283D3C5000547963 /* LibraryTestFrameWork.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = LibraryTestFrameWork.docc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -223,6 +221,7 @@
 		EBDA27F2283D2AAC00547963 /* LibraryTest */ = {
 			isa = PBXGroup;
 			children = (
+				EBA6C687283F73E9003BEDE8 /* String.extension.swift */,
 				EBDA27F3283D2AAC00547963 /* LibraryTest.h */,
 				EBDA27F4283D2AAC00547963 /* LibraryTest.docc */,
 			);
@@ -232,8 +231,6 @@
 		EBDA2841283D3C5000547963 /* LibraryTestFrameWork */ = {
 			isa = PBXGroup;
 			children = (
-				EBDA2842283D3C5000547963 /* LibraryTestFrameWork.h */,
-				EBDA2843283D3C5000547963 /* LibraryTestFrameWork.docc */,
 			);
 			path = LibraryTestFrameWork;
 			sourceTree = "<group>";
@@ -263,7 +260,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBDA2845283D3C5000547963 /* LibraryTestFrameWork.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -559,6 +555,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EBDA27F5283D2AAC00547963 /* LibraryTest.docc in Sources */,
+				EBA6C688283F73E9003BEDE8 /* String.extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -566,7 +563,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBDA2844283D3C5000547963 /* LibraryTestFrameWork.docc in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -733,8 +729,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 292EB50FBB62E390019804DB /* Pods-LibraryTestDemo.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BITCODE_GENERATION_MODE = bitcode;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N66U6VD848;
@@ -750,6 +749,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.sayya.LibraryTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -762,8 +762,11 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9587DCF78EEC4FFAF88ADC15 /* Pods-LibraryTestDemo.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				BITCODE_GENERATION_MODE = bitcode;
+				BUILD_LIBRARY_FOR_DISTRIBUTION = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = N66U6VD848;
@@ -779,6 +782,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_CFLAGS = "fembed-bitcode";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.sayya.LibraryTestDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

@@ -1,0 +1,34 @@
+BCSymbolMap Version: 2.0
+Apple clang version 13.1.6 (clang-1316.0.21.2.3)
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.4.sdk
+iPhoneSimulator15.4.sdk
+/Users/seiyaniimi/Library/Developer/Xcode/DerivedData/LibraryTestDemo-enoektpnwxtiaddhehtqulyhixab/Build/Intermediates.noindex/ArchiveIntermediates/LibraryTest/IntermediateBuildFilesPath/LibraryTestDemo.build/Release-iphonesimulator/LibraryTest.build/DerivedSources/LibraryTest_vers.c
+/Users/seiyaniimi/Desktop/LibraryTestDemo
+___swift_instantiateConcreteTypeFromMangledName
+_symbolic _____yypG s23_ContiguousArrayStorageC
+_$ss23_ContiguousArrayStorageCyypGMD
+__swift_FORCE_LOAD_$_swiftUIKit_$_LibraryTest
+__swift_FORCE_LOAD_$_swiftDarwin_$_LibraryTest
+__swift_FORCE_LOAD_$_swiftFoundation_$_LibraryTest
+__swift_FORCE_LOAD_$_swiftObjectiveC_$_LibraryTest
+__swift_FORCE_LOAD_$_swiftCoreFoundation_$_LibraryTest
+__swift_FORCE_LOAD_$_swiftDispatch_$_LibraryTest
+__swift_FORCE_LOAD_$_swiftCoreGraphics_$_LibraryTest
+__swift_FORCE_LOAD_$_swiftCoreImage_$_LibraryTest
+__swift_FORCE_LOAD_$_swiftMetal_$_LibraryTest
+__swift_FORCE_LOAD_$_swiftQuartzCore_$_LibraryTest
+__swift_FORCE_LOAD_$_swiftFileProvider_$_LibraryTest
+__swift_FORCE_LOAD_$_swiftDataDetection_$_LibraryTest
+___swift_reflection_version
+Apple clang version 13.1.6 (clang-1316.0.20.8)
+<swift-imported-modules>
+Apple Swift version 5.6 (swiftlang-5.6.0.323.62 clang-1316.0.20.8)
+/Users/seiyaniimi/Desktop/LibraryTestDemo/LibraryTest/String.extension.swift
+__swift_instantiateConcreteTypeFromMangledName
+<compiler-generated>
+echo
+_allocateUninitializedArray
+$sSa13_adoptStorage_5countSayxG_SpyxGts016_ContiguousArrayB0CyxGn_SitFZyp_Tg5
+$ss22_ContiguousArrayBufferV19firstElementAddressSpyxGvgyp_Tg5
+$ss22_ContiguousArrayBufferV5count7storageAByxGSi_s01_aB7StorageCyxGtcfCyp_Tg5
+$ss22_ContiguousArrayBufferV18_initStorageHeader5count8capacityySi_SitFyp_Tg5
